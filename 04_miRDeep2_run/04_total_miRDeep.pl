@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+
+my @a = qw( 02_miRDeep2_10A.sh 02_miRDeep2_10B.sh 02_miRDeep2_11A.sh 02_miRDeep2_11B.sh 02_miRDeep2_12A.sh 02_miRDeep2_12B.sh 02_miRDeep2_13A.sh 02_miRDeep2_13B.sh 02_miRDeep2_14A.sh 02_miRDeep2_14B.sh 02_miRDeep2_15A.sh 02_miRDeep2_15B.sh 02_miRDeep2_16A.sh 02_miRDeep2_16B.sh 02_miRDeep2_17A.sh 02_miRDeep2_17B.sh 02_miRDeep2_18A.sh 02_miRDeep2_18B.sh 02_miRDeep2_19A.sh 02_miRDeep2_19B.sh 02_miRDeep2_1A.sh 02_miRDeep2_1B.sh 02_miRDeep2_20A.sh 02_miRDeep2_20B.sh 02_miRDeep2_21A.sh 02_miRDeep2_21B.sh 02_miRDeep2_22A.sh 02_miRDeep2_22B.sh 02_miRDeep2_23A.sh 02_miRDeep2_23B.sh 02_miRDeep2_24A.sh 02_miRDeep2_24B.sh 02_miRDeep2_25A.sh 02_miRDeep2_25B.sh 02_miRDeep2_26A.sh 02_miRDeep2_26B.sh 02_miRDeep2_27A.sh 02_miRDeep2_27B.sh 02_miRDeep2_28A.sh 02_miRDeep2_28B.sh 02_miRDeep2_29A.sh 02_miRDeep2_29B.sh 02_miRDeep2_2A.sh 02_miRDeep2_2B.sh 02_miRDeep2_30A.sh 02_miRDeep2_30B.sh 02_miRDeep2_31A.sh 02_miRDeep2_31B.sh 02_miRDeep2_32A.sh 02_miRDeep2_32B.sh 02_miRDeep2_33A.sh 02_miRDeep2_33B.sh 02_miRDeep2_34A.sh 02_miRDeep2_34B.sh 02_miRDeep2_35A.sh 02_miRDeep2_35B.sh 02_miRDeep2_36A.sh 02_miRDeep2_36B.sh 02_miRDeep2_37A.sh 02_miRDeep2_37B.sh 02_miRDeep2_38A.sh 02_miRDeep2_38B.sh 02_miRDeep2_39A.sh 02_miRDeep2_39B.sh 02_miRDeep2_3A.sh 02_miRDeep2_3B.sh 02_miRDeep2_40A.sh 02_miRDeep2_40B.sh 02_miRDeep2_41A.sh 02_miRDeep2_41B.sh 02_miRDeep2_42A.sh 02_miRDeep2_42B.sh 02_miRDeep2_43A.sh 02_miRDeep2_43B.sh 02_miRDeep2_44A.sh 02_miRDeep2_44B.sh 02_miRDeep2_45A.sh 02_miRDeep2_45B.sh 02_miRDeep2_46A.sh 02_miRDeep2_46B.sh 02_miRDeep2_47A.sh 02_miRDeep2_47B.sh 02_miRDeep2_48A.sh 02_miRDeep2_48B.sh 02_miRDeep2_49A.sh 02_miRDeep2_49B.sh 02_miRDeep2_4A.sh 02_miRDeep2_4B.sh 02_miRDeep2_50A.sh 02_miRDeep2_50B.sh 02_miRDeep2_51A.sh 02_miRDeep2_51B.sh 02_miRDeep2_52A.sh 02_miRDeep2_52B.sh 02_miRDeep2_53A.sh 02_miRDeep2_53B.sh 02_miRDeep2_54A.sh 02_miRDeep2_54B.sh 02_miRDeep2_55A.sh 02_miRDeep2_55B.sh 02_miRDeep2_56A.sh 02_miRDeep2_56B.sh 02_miRDeep2_57A.sh 02_miRDeep2_57B.sh 02_miRDeep2_58A.sh 02_miRDeep2_58B.sh 02_miRDeep2_59A.sh 02_miRDeep2_59B.sh 02_miRDeep2_5A.sh 02_miRDeep2_5B.sh 02_miRDeep2_60A.sh 02_miRDeep2_60B.sh 02_miRDeep2_61A.sh 02_miRDeep2_61B.sh 02_miRDeep2_62A.sh 02_miRDeep2_62B.sh 02_miRDeep2_63A.sh 02_miRDeep2_63B.sh 02_miRDeep2_64A.sh 02_miRDeep2_64B.sh 02_miRDeep2_65A.sh 02_miRDeep2_65B.sh 02_miRDeep2_66A.sh 02_miRDeep2_66B.sh 02_miRDeep2_67A.sh 02_miRDeep2_67B.sh 02_miRDeep2_68A.sh 02_miRDeep2_68B.sh 02_miRDeep2_69A.sh 02_miRDeep2_69B.sh 02_miRDeep2_6A.sh 02_miRDeep2_6B.sh 02_miRDeep2_70A.sh 02_miRDeep2_70B.sh 02_miRDeep2_7A.sh 02_miRDeep2_7B.sh 02_miRDeep2_8A.sh 02_miRDeep2_8B.sh 02_miRDeep2_9A.sh 02_miRDeep2_9B.sh );
+
+foreach my $name (@a ){
+
+	print "sh $name\n";
+
+}
